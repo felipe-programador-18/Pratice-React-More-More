@@ -4,6 +4,11 @@ import './App.css'
 
 const NameEmployer = ['programer','Felipe Martins Machado','Programmer18', 'Betina', 'Joao']
 const FilterNumberId = ["21","3","232","4324",'123','43234','3434','44','10']
+const BuildMap = [1,2,3,43,2,5,2,3,45,23,4,23,4,566,100]
+const Testing = BuildMap.map((item) =>(
+  <li> {item**2} </li>
+))
+
 
 function App() {
   const [busca, setbusca] = useState('')
@@ -31,6 +36,8 @@ function App() {
       }
       </ul>
      
+      <ul>{Testing}</ul>
+
     </div>
   );
 }
