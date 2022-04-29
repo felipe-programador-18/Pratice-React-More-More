@@ -38,6 +38,8 @@ function App() {
      
       <ul>{Testing}</ul>
 
+      {Object.keys(Testing)}
+
     </div>
   );
 }
